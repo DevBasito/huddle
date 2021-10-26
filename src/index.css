@@ -6,11 +6,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: url('./images/bg-desktop.svg'), violet;
+  background: url('./images/bg-desktop.svg'), hsl(257, 40%, 49%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@media screen and (max-width: 760px){
+  body{background: url('./images/bg-mobile.svg'), hsl(257, 40%, 49%);}
 }
 
